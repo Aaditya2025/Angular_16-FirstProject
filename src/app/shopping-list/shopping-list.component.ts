@@ -3,6 +3,7 @@ import { Ingredients } from '../shared/ingredient.model';
 
 @Component({
   selector: 'app-shopping-list',
+  standalone: false,
   templateUrl: './shopping-list.component.html',
 
 })
